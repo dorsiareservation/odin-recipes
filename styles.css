@@ -1,0 +1,74 @@
+.menu { 
+    font-family: "Courier New", "Lucida Console", monospace;
+    font-size: 75px;
+    text-align: center;
+    color: #fcc749;    
+}
+
+.list-of-recipes { 
+    list-style: none;
+}
+
+.listing { 
+    font-family: "Georgia", "Garamond", serif;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.recipename {
+    font-weight: bold; 
+    font-family: "Courier New", "Georgia", serif;
+    font-size: 50px;
+    text-align: center;
+    color:black;
+    text-transform: uppercase;    
+}
+
+.image { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto; 
+}
+
+.chicken { 
+    height: 750px;
+    width: auto;
+}
+
+.description, .ingredients, .steps, .nutrition { 
+    font-family: "Garamond", "Georgia", serif;
+    font-size: 30px;    
+}
+
+.description { 
+    border-left: 6px solid #5856f5;
+}
+
+.ingredients { 
+    border-left: 6px solid #fff652;
+}
+
+.steps { 
+    border-left: 6px solid #62e4f5;
+}
+.nutrition { 
+    border-left: 6px solid #fa2f4a;    
+}
+
+.description.para { 
+    border-left:none;
+    font-family: "Garamond", "Georgia", serif;
+    font-size: 20px;
+}
+
+ul li, ol li { 
+    font-family: "Garamond", "Georgia", serif;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.macros li{ 
+    list-style: square;     
+}
